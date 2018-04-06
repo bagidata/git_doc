@@ -3,8 +3,11 @@
 ### Melihat Status
     `$ git status`
     
-### Melihat traking file
+### Traking file
+#### Melihat traking file
     `$ git diff`
+#### Melihat traking file antara staging dengan file terakhir
+    `$ git diff --staged`
     
 ### Menambahkan perubahan ke staging atau commit berikutnya
 #### Menambahkan semua file dengan dot (.)
@@ -22,4 +25,6 @@
 #### Commit dengan memberi komentar
     `$ git commit -m "is pesan"`
     
-    
+### Unstaging
+#### Menghapus file dari staging area dan tetap menjaga konten
+    `git reset nama_file.txt`
