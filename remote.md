@@ -2,7 +2,7 @@
 
 ### Mengambil remote repository dan merge secara otomatis
     `git pull https://github.com/bagidata/markdown-here.git`
-Catatan: Jika Anda pernah melakukan commit dilokal maka secara otomatis akan di merge dengan remote repository dan ini sangat tidak aman. Anda tidak sempat untuk mereview.
+Catatan: Jika Anda pernah melakukan commit dilokal maka secara otomatis akan di merge dengan remote repository dan ini sangat tidak aman. Anda tidak sempat untuk mereview. Ini mirip dengan `git fetch` + `git merge`
 
 ### Mengambil remote repository dan merge secara manual
     `git fetch https://github.com/bagidata/markdown-here.git`
