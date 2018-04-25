@@ -28,3 +28,13 @@
 ### Unstaging
 #### Menghapus file dari staging area dan tetap menjaga konten
     `git reset nama_file.txt`
+
+
+## Working Directory
+### Pindah Working Directory Cabang
+    `git checkout <branch>`
+    > ini akan mengubah atau memindahkan isi direktori ke branch tertentu.
+    
+### Restore Working Directory
+    `git checkout .`
+    > ini akan mereset dan mengembalikan isi direktori sebelum di edit atau di hapus.
