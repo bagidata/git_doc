@@ -7,6 +7,14 @@
 
     $ git config --global color.ui auto
 
+### Cek setting proxy saat ini
+
+    git config --global --get http.proxy
+
 ### Proxy
 
-    $ git config --global http.proxy http://username:password@hostname:8080
+    $ git config --global http.proxy http://username:password@proxyname:8080
+
+### Unset proxy
+
+    git config --global --unset http.proxy
