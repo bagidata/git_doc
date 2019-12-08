@@ -1,0 +1,57 @@
+# My gitignore
+tmp/
+9_tmp/
+docaz/
+
+*.tmp
+~$*
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
+
+# It's better to unpack these files and commit the raw source because
+# git has its own built in compression methods.
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.gzip
+*.tgz
+*.bzip
+*.bzip2
+*.bz2
+*.xz
+*.lzma
+*.cab
+*.xar
+
+# Packing-only formats
+*.iso
+*.tar
+
+# Package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+*.txz
