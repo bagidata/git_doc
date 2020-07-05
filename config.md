@@ -1,4 +1,4 @@
-## KONFIGURE
+## KONFIGURASI
 
 ### Konfigurasi informasi user untuk semua lokal repository
     $ git config --global user.name "[name]"
