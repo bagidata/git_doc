@@ -57,7 +57,7 @@ ssh-add -l
 
 #### Jalankan SSH key ke Github
 
-Copy text yang ada pada direktori `~/.ssh/id_anda.pb`
+Copy text yang ada pada direktori `~/.ssh/id_anda.pub`
 
 Paste-kan ke Github di `Setting>SSH and GPG Keys`
 
